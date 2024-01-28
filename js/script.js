@@ -42,6 +42,7 @@ exchangeIcon.addEventListener("click", () => {
     getExchangeRate();
 })
 
+
 function getExchangeRate() {
     const amount = document.querySelector("form input");
     const exchangeRateTxt = document.querySelector("form .exchange-rate");
